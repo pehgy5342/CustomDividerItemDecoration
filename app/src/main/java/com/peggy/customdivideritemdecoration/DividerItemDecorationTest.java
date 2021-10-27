@@ -125,17 +125,6 @@ public class DividerItemDecorationTest extends RecyclerView.ItemDecoration {
         }
     }
 
-    public void drawWidth(){
-        Canvas canvas = new Canvas();
-
-        //建立藍畫筆
-        Paint bluePaint = new Paint();
-        bluePaint.setStyle(Paint.Style.STROKE);//繪製直線
-        bluePaint.setColor(Color.BLUE);
-        bluePaint.setStrokeWidth(9); //畫筆粗細為9畫素點
-        //劃線
-        canvas.drawLine(400, 400, 600, 400, bluePaint);
-    }
 
 
 }

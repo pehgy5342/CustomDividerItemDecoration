@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        val dividerItemDecoration = CustomDividerItemDecoration(resources.getDrawable(R.drawable.shape_line),100)
+        val dividerItemDecoration = CustomDividerItemDecoration(resources.getDrawable(R.drawable.shape_line),60)
         /**
          * 第二种分割线 自定义 divider_bg
          */
